@@ -41,9 +41,11 @@
         }
     }
     
-    $appid = "57690";
+    $appid = "489830";
     
-    $api_url2 = "http://store.steampowered.com/api/appdetails?appids=$appid";
+    //$api_url2 = "http://store.steampowered.com/api/appdetails?appids=$appid";
+    $api_url2 = "http://store.steampowered.com/api/appdetails?appids=$appid&cc=brl&l=br";
+    //$api_url2 = "https://store.steampowered.com/api/appdetails?cc=brl&l=br&appids=489830";
     
     echo $api_url2;
     
