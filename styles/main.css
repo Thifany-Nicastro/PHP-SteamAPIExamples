@@ -3,3 +3,8 @@
     margin: 30px 0px;
     padding: 40px;
 }
+
+table {
+    word-wrap: break-word;
+    word-break: break-all;
+}
