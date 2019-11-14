@@ -8,3 +8,8 @@ table {
     word-wrap: break-word;
     word-break: break-all;
 }
+
+.box-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
