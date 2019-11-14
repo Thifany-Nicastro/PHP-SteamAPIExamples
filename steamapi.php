@@ -41,13 +41,24 @@
         }
     }
     
-    $appid = "489830";
+    //$appid = "489830"; //skyrim
+    $appid = "57690";
     
     //$api_url2 = "http://store.steampowered.com/api/appdetails?appids=$appid";
-    $api_url2 = "http://store.steampowered.com/api/appdetails?appids=$appid&cc=brl&l=br";
+    //$api_url2 = "http://store.steampowered.com/api/appdetails?appids=$appid&cc=brl&l=br";
+    
+    //$api_url2 = "https://store.steampowered.com/api/appdetails?appids=489830&cc=BRL&l=portuguese";
+    
+    //$api_url2 = "https://store.steampowered.com/api/appdetails?appids=57690&cc=gb&l=en";
+    $api_url2 = "https://store.steampowered.com/api/appdetails?appids=57690&cc=br&l=pt";
+    
     //$api_url2 = "https://store.steampowered.com/api/appdetails?cc=brl&l=br&appids=489830";
     
+    //$api_url2 = "https://store.steampowered.com/api/appdetails/?appids=$appid&l=br&cc=brl&filters=price_overview";
+    
     echo $api_url2;
+    
+    //var_dump(json_decode(file_get_contents($api_url2), true));
     
     $json2 = json_decode(file_get_contents($api_url2), true);
 
