@@ -24,7 +24,7 @@
         <main id="content" class="flex-grow-1">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-10">
+                    <div class="col-12 col-sm-12 col-md-10 col-lg-10">
                         <div class="box-content">
                             <h1><?=$json["response"]["players"][0]["personaname"];?></h1>
                             <img src="<?=$json["response"]["players"][0]["avatarfull"];?>">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-10">
+                    <div class="col-12 col-sm-12 col-md-10 col-lg-10">
                         <div class="box-content">
                             <table class="table table-striped">
                               <tbody>
