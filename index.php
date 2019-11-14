@@ -111,6 +111,21 @@
                                   <th scope="row">Desconto atual</th>
                                   <td><?=$json2[$appid]["data"]["price_overview"]["discount_percent"];?></td>
                                 </tr>
+                                <tr>
+                                  <th scope="row">Promoção?</th>
+                                  <td>
+                                      <?php
+                                        if ($json2[$appid]["data"]["price_overview"]["initial"] != $json2[$appid]["data"]["price_overview"]["final"])
+                                        {
+                                            echo "Sim";
+                                        }
+                                        else
+                                        {
+                                            echo "Não";
+                                        }
+                                      ?>
+                                  </td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
