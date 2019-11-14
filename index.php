@@ -26,8 +26,10 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-sm-12 col-md-10 col-lg-10">
                         <div class="box-content">
-                            <h1><?=$json["response"]["players"][0]["personaname"];?></h1>
-                            <img src="<?=$json["response"]["players"][0]["avatarfull"];?>">
+                            <div class="box-header">
+                                <h1 class="title"><?=$json["response"]["players"][0]["personaname"];?></h1>
+                                <img src="<?=$json["response"]["players"][0]["avatarfull"];?>">
+                            </div>
                             <table class="table table-striped">
                               <tbody>
                                 <tr>
