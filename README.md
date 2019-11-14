@@ -15,3 +15,7 @@ For example:
 http://store.steampowered.com/api/appdetails?appids=57690&cc=us&l=en
 http://store.steampowered.com/api/appdetails?appids=57690&cc=gb&l=en
 http://store.steampowered.com/api/appdetails?appids=57690&cc=de&l=de
+
+
+
+<?=$json["response"]["players"][0]["avatarmedium"];?>
