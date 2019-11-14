@@ -56,7 +56,7 @@
     
     //$api_url2 = "https://store.steampowered.com/api/appdetails/?appids=$appid&l=br&cc=brl&filters=price_overview";
     
-    echo $api_url2;
+    //echo $api_url2;
     
     //var_dump(json_decode(file_get_contents($api_url2), true));
     
