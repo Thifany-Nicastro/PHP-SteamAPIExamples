@@ -21,6 +21,11 @@
         </ul>
         <ul>
             <li> Jogo: <?=$json2[$appid]["data"]["name"];?></li>
+            <li> Desc: <?=$json2[$appid]["data"]["short_description"];?></li>
+            <li> Moeda: <?=$json2[$appid]["data"]["price_overview"]["currency"];?></li>
+            <li> Preço normal: <?=$json2[$appid]["data"]["price_overview"]["initial"];?></li>
+            <li> Preço atual: <?=$json2[$appid]["data"]["price_overview"]["final"];?></li>
+            <li> Preço atual: <?=$json2[$appid]["data"]["price_overview"]["discount_percent"];?></li>
         </ul>
     </body>
 </html>
