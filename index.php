@@ -88,7 +88,7 @@
                                   <td><?=$json2[$appid]["data"]["name"];?></td>
                                 </tr>
                                 <tr>
-                                  <th scope="row">Descrição</th>
+                                  <th scope="row" style="width: 28%">Descrição</th>
                                   <td><?=$json2[$appid]["data"]["short_description"];?></td>
                                 </tr>
                                 <tr>
