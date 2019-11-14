@@ -7,9 +7,20 @@
 table {
     word-wrap: break-word;
     word-break: break-word;
+    border: 1px solid white;
 }
 
 .box-header {
     text-align: center;
     margin-bottom: 30px;
+}
+
+.box-header img {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.box-title {
+    color: white;
+    font-weight: 100;
 }
