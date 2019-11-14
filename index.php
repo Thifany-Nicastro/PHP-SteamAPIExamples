@@ -27,7 +27,7 @@
                     <div class="col-12 col-sm-12 col-md-10 col-lg-10">
                         <div class="box-content">
                             <div class="box-header">
-                                <h1 class="title"><?=$json["response"]["players"][0]["personaname"];?></h1>
+                                <h1 class="box-title"><?=$json["response"]["players"][0]["personaname"];?></h1>
                                 <img src="<?=$json["response"]["players"][0]["avatarfull"];?>">
                             </div>
                             <table class="table table-striped">
