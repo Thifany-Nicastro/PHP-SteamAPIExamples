@@ -1,5 +1,9 @@
 # SteamAPI
 
+Testes SteamAPI
+
+## útil
+
 https://steamwebapi.azurewebsites.net/
 
 https://wiki.teamfortress.com/wiki/User:RJackson/StorefrontAPI#Known_methods
