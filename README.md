@@ -25,3 +25,6 @@ http://store.steampowered.com/api/appdetails?appids=57690&cc=de&l=de
 
 
 $json["response"]["players"][0]["avatarmedium"];
+
+
+https://developer.valvesoftware.com/wiki/Steam_Web_API
